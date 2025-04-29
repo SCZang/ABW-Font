@@ -61,7 +61,12 @@
  ```sh
  sh scripts/03f_cal_ABW_weights.sh
  ```
- We also provide an pre-trained ABW-Font model, and you can get them from link.
+ We also provide an pre-trained ABW-Font model, and you can get them from [link](https://share.weiyun.com/RuzlewkB). It is obtained by running:
+ ```
+ #training ABW-Font
+ sh scripts/03f_run_ddp_ABW.sh
+ ```
+ It can be used to calculate weights on seen and unseen fonts, and to generate results.
  ## Generating and calculating metrics
  Run the following scripts in sequence:
  ```sh
